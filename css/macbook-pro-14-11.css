@@ -57,7 +57,7 @@
   width: fit-content;
 }
 
-.macbook-pro-14-11 .overlap-group2 {
+.macbook-pro-14-11 .overlap-group3 {
   align-self: center;
   height: 180px;
   margin-bottom: 17.0px;
@@ -123,7 +123,7 @@
   min-width: 832px;
 }
 
-.macbook-pro-14-11 .overlap-group4 {
+.macbook-pro-14-11 .overlap-group5 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   border-radius: 5px 5px 0px 0px;
@@ -138,14 +138,14 @@
   height: 17px;
   letter-spacing: 0.98px;
   line-height: normal;
-  width: 489px;
+  white-space: nowrap;
 }
 
 .macbook-pro-14-11 .span1 {
   text-decoration: underline;
 }
 
-.macbook-pro-14-11 .overlap-group3 {
+.macbook-pro-14-11 .overlap-group4 {
   align-items: flex-start;
   background-color: var(--white);
   border-radius: 5px;
@@ -212,7 +212,7 @@
   min-width: 535px;
 }
 
-.macbook-pro-14-11 .overlap-group6 {
+.macbook-pro-14-11 .overlap-group7 {
   height: 360px;
   position: relative;
   width: 280px;
@@ -224,6 +224,7 @@
   line-height: normal;
   position: absolute;
   top: 237px;
+  white-space: nowrap;
   width: 59px;
 }
 
@@ -242,10 +243,11 @@
   line-height: normal;
   position: absolute;
   top: 330px;
+  white-space: nowrap;
   width: 215px;
 }
 
-.macbook-pro-14-11 .overlap-group7 {
+.macbook-pro-14-11 .overlap-group8 {
   align-items: flex-end;
   background-image: url(../img/img-4420@2x.png);
   background-position: 50% 50%;
@@ -261,6 +263,7 @@
   letter-spacing: 0;
   line-height: normal;
   min-height: 7px;
+  white-space: nowrap;
   width: 150px;
 }
 
@@ -271,7 +274,7 @@
   min-width: 535px;
 }
 
-.macbook-pro-14-11 .overlap-group5 {
+.macbook-pro-14-11 .overlap-group6 {
   height: 378px;
   position: relative;
   width: 271px;
@@ -292,10 +295,11 @@
   line-height: normal;
   position: absolute;
   top: 350px;
+  white-space: nowrap;
   width: 206px;
 }
 
-.macbook-pro-14-11 .overlap-group8 {
+.macbook-pro-14-11 .overlap-group9 {
   align-items: flex-end;
   background-image: url(../img/img-4417@2x.png);
   background-position: 50% 50%;
@@ -311,6 +315,7 @@
   letter-spacing: 0;
   line-height: normal;
   min-height: 10px;
+  white-space: nowrap;
   width: 119px;
 }
 
@@ -335,7 +340,7 @@
   height: 17px;
   letter-spacing: 0.98px;
   line-height: normal;
-  width: 683px;
+  white-space: nowrap;
 }
 
 .macbook-pro-14-11 .divcomp-kxc4riom {
@@ -385,6 +390,7 @@
   margin-top: 61px;
   min-width: 230px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .macbook-pro-14-11 .div-4 {
@@ -404,7 +410,7 @@
   height: 17px;
   letter-spacing: 0.98px;
   line-height: normal;
-  width: 800px;
+  white-space: nowrap;
 }
 
 .macbook-pro-14-11 .div-5 {
@@ -479,18 +485,25 @@
 .macbook-pro-14-11 .div-7 {
   align-items: flex-start;
   display: flex;
-  gap: 12px;
   height: 189px;
   width: 350px;
 }
 
 .macbook-pro-14-11 .div-8 {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.macbook-pro-14-11 .div-9 {
   background-color: var(--athens-gray);
   border-radius: 30px;
   height: 60px;
+  min-width: 60px;
   overflow: hidden;
   position: relative;
-  width: 60px;
 }
 
 .macbook-pro-14-11 .nyc_headshot_-_cropped_aoyjpg-1 {
@@ -502,11 +515,10 @@
   width: 60px;
 }
 
-.macbook-pro-14-11 .div-9 {
+.macbook-pro-14-11 .div-10 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 10.5px;
   padding: 0px 6.52px 0px 0px;
   position: relative;
   width: fit-content;
@@ -531,7 +543,7 @@
   width: fit-content;
 }
 
-.macbook-pro-14-11 .div-10 {
+.macbook-pro-14-11 .div-11 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -540,8 +552,8 @@
   width: 747px;
 }
 
-.macbook-pro-14-11 .div-11 {
-  align-items: flex-start;
+.macbook-pro-14-11 .div-12 {
+  align-items: flex-end;
   display: flex;
   gap: 42px;
   height: 144px;
@@ -552,12 +564,12 @@
 .macbook-pro-14-11 .flex-col-5 {
   align-items: flex-start;
   gap: 39px;
-  margin-top: -5px;
+  margin-bottom: -10px;
   min-height: 159px;
   width: 362px;
 }
 
-.macbook-pro-14-11 .div-12 {
+.macbook-pro-14-11 .div-13 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   box-shadow: 0px 20px 20px -20px #0000001a;
@@ -566,14 +578,14 @@
   width: 362px;
 }
 
-.macbook-pro-14-11 .div-13 {
+.macbook-pro-14-11 .div-14 {
   align-items: flex-start;
   background-color: var(--picton-blue);
   display: flex;
   min-width: 60px;
 }
 
-.macbook-pro-14-11 .div-14 {
+.macbook-pro-14-11 .div-15 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   display: flex;
@@ -591,7 +603,7 @@
   width: fit-content;
 }
 
-.macbook-pro-14-11 .div-15 {
+.macbook-pro-14-11 .div-16 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   box-shadow: 0px 20px 20px -20px #0000001a;
@@ -606,7 +618,7 @@
   width: 428px;
 }
 
-.macbook-pro-14-11 .div-16 {
+.macbook-pro-14-11 .div-17 {
   align-items: flex-start;
   background-color: var(--sea-serpent);
   display: flex;
@@ -617,7 +629,7 @@
   top: 0;
 }
 
-.macbook-pro-14-11 .div-17 {
+.macbook-pro-14-11 .link {
   align-items: flex-start;
   background-color: var(--moon-raker);
   cursor: pointer;
@@ -638,18 +650,25 @@
   width: 254px;
 }
 
-.macbook-pro-14-11 .div-18 {
+.macbook-pro-14-11 .flex-col-6 {
+  align-items: flex-start;
+  gap: 29px;
+  margin-bottom: -10px;
+  min-height: 149px;
+  width: 362px;
+}
+
+.macbook-pro-14-11 .link-1 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   box-shadow: 0px 20px 20px -20px #0000001a;
   cursor: pointer;
   display: flex;
-  margin-top: 5px;
   overflow: hidden;
   width: 362px;
 }
 
-.macbook-pro-14-11 .div-19 {
+.macbook-pro-14-11 .div-18 {
   align-items: flex-start;
   background-color: var(--sea-serpent);
   display: flex;
@@ -660,7 +679,7 @@
   top: 0;
 }
 
-.macbook-pro-14-11 .div-20 {
+.macbook-pro-14-11 .div-19 {
   align-items: flex-start;
   background-color: var(--moon-raker);
   display: flex;
@@ -671,18 +690,38 @@
   width: fit-content;
 }
 
+.macbook-pro-14-11 .div-20 {
+  align-items: flex-start;
+  background-color: var(--sea-serpent);
+  display: flex;
+  height: 60px;
+  left: 0;
+  min-width: 60px;
+  position: absolute;
+  top: 0;
+}
+
+.macbook-pro-14-11 .ads-bias-on-instagram {
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: 254px;
+}
+
 .macbook-pro-14-11 .div-21 {
   background-color: var(--snuff);
   height: 95px;
   width: 1600px;
 }
 
-.macbook-pro-14-11 .flex-col-6 {
+.macbook-pro-14-11 .flex-col-7 {
   display: flex;
   flex-direction: column;
 }
 
-.macbook-pro-14-11 .h4-3 {
+.macbook-pro-14-11 .h4-4 {
   align-items: flex-start;
   display: flex;
   padding: 0px 66.05px 0.38px 0px;

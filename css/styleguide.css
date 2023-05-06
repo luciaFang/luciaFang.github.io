@@ -4,6 +4,7 @@
   --black: #000000;
   --cape-cod: #424242;
   --chestnut: #b75e5e;
+  --cosmic: #74405e;
   --cultured-pearl: #f5f5f5;
   --dove-gray: #707070;
   --dove-gray-2: #6d6d6d;
@@ -15,12 +16,16 @@
   --mystic: #e3ecf1;
   --onyx: #353738;
   --onyx-2: #3a3a3a;
+  --outrageous-orange: #ff5b37;
   --picton-blue: #3ac8e8;
+  --princess-perfume: #ff98d5;
   --quick-silver: #9fa6a9;
   --sea-serpent: #3fc8e1;
   --snuff: #dcd4e7;
   --star-dust: #a0a09f;
   --trout: #475461;
+  --twilight: #e5d2e1;
+  --unmellow-yellow: #0038ef;
   --white: #ffffff;
  
   --font-size-l: 17px;
@@ -29,9 +34,11 @@
   --font-size-xl: 18px;
   --font-size-xs: 12px;
   --font-size-xxl: 20px;
-  --font-size-xxxl: 30px;
+  --font-size-xxs: 11px;
  
+  --font-family-dm_sans: "DM Sans", Helvetica;
   --font-family-inter: "Inter", Helvetica;
+  --font-family-kantumruy: "Kantumruy", Helvetica;
   --font-family-lato: "Lato", Helvetica;
   --font-family-montserrat: "Montserrat", Helvetica;
   --font-family-poppins: "Poppins", Helvetica;
@@ -57,25 +64,9 @@
 .inter-bold-mahogany-30px {
   color: var(--mahogany);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
-}
-
-.montserrat-bold-black-20px {
-  color: var(--black);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.sourcesanspro-normal-medium-red-violet-16px {
-  color: var(--medium-red-violet);
-  font-family: var(--font-family-source_sans_pro);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .inter-normal-black-17px {
@@ -86,9 +77,48 @@
   font-weight: 400;
 }
 
-.inter-normal-cultured-pearl-16px {
-  color: var(--cultured-pearl);
+.poppins-medium-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.kantumruy-light-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-kantumruy);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.inter-normal-unmellow-yellow-20px {
+  color: var(--unmellow-yellow);
   font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-white-11px {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sourcesanspro-normal-medium-red-violet-16px {
+  color: var(--medium-red-violet);
+  font-family: var(--font-family-source_sans_pro);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
@@ -118,6 +148,94 @@
   font-weight: 600;
 }
 
+.inter-bold-unmellow-yellow-20px {
+  color: var(--unmellow-yellow);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.kantumruy-bold-cosmic-11px {
+  color: var(--cosmic);
+  font-family: var(--font-family-kantumruy);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-cultured-pearl-16px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-thin-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: italic;
+  font-weight: 100;
+}
+
+.inter-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-star-dust-14px {
+  color: var(--star-dust);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-bold-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-semi-bold-medium-red-violet-11px {
+  color: var(--medium-red-violet);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: italic;
+  font-weight: 600;
+}
+
 .montserrat-normal-dove-gray-16px {
   color: var(--dove-gray);
   font-family: var(--font-family-montserrat);
@@ -131,22 +249,6 @@
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
   font-style: normal;
-  font-weight: 400;
-}
-
-.montserrat-bold-white-16px {
-  color: var(--white);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.montserrat-normal-black-12px {
-  color: var(--black);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xs);
-  font-style: italic;
   font-weight: 400;
 }
 
@@ -166,10 +268,58 @@
   font-weight: 700;
 }
 
+.inter-bold-star-dust-15px {
+  color: var(--star-dust);
+  font-family: var(--font-family-inter);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .inter-bold-black-16px {
   color: var(--black);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
+}
+
+.inter-bold-unmellow-yellow-18px {
+  color: var(--unmellow-yellow);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-medium-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-style: italic;
+  font-weight: 400;
 }
