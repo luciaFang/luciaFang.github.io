@@ -128,7 +128,7 @@
 
 .macbook-pro-14-17 .a {
   align-items: flex-start;
-  background-color: var(--cardinal-pink);
+  background-color: #890066;
   border-radius: 10px;
   display: flex;
   left: 404px;
@@ -183,6 +183,17 @@
   padding: 18px 7px;
 }
 
+.macbook-pro-14-17 .lit-review-on-self-efficacy {
+  color: var(--mahogany);
+  font-family: var(--font-family-inter);
+  font-size: 30px;
+  font-weight: 700;
+  height: 17px;
+  letter-spacing: 0.98px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
 .macbook-pro-14-17 .method-3-1 {
   height: 639px;
   margin-right: 8.0px;
@@ -220,6 +231,10 @@
 }
 
 .macbook-pro-14-17 .repaint-update-edu-senses-storyboard {
+  color: var(--mahogany);
+  font-family: var(--font-family-inter);
+  font-size: 30px;
+  font-weight: 700;
   height: 17px;
   left: 19px;
   letter-spacing: 0.98px;
@@ -801,7 +816,7 @@
 }
 
 .macbook-pro-14-17 .overlap-group-2 {
-  background-image: url(../img/cover@2x.png);
+  background-image: url(../img/cover-2@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   min-width: 39px;
