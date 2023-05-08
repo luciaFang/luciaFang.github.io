@@ -127,6 +127,15 @@
   width: 342px;
 }
 
+.macbook-pro-14-12 .skills {
+  height: 24px;
+  letter-spacing: 0.40px;
+  line-height: normal;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 85px;
+}
+
 .macbook-pro-14-12 .usability-testing {
   height: 22px;
   letter-spacing: 0.36px;
@@ -161,6 +170,17 @@
   letter-spacing: 0.36px;
   line-height: 28.8px;
   white-space: nowrap;
+}
+
+.macbook-pro-14-12 .divcomp-kxb8nw4t {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 1px;
+  min-height: 58px;
+  padding: 2px 0;
+  width: 160px;
 }
 
 .macbook-pro-14-12 .divcomp-kyey590p {
@@ -289,6 +309,13 @@
   width: 747px;
 }
 
+.macbook-pro-14-12 .see-more-of-my-work {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
 .macbook-pro-14-12 .div-10 {
   align-items: flex-end;
   display: flex;
@@ -327,12 +354,10 @@
   width: fit-content;
 }
 
-.macbook-pro-14-12 .sensing-projects {
-  letter-spacing: 0;
-  line-height: 19.2px;
-  margin-top: -1.00px;
+.macbook-pro-14-12 .h4 {
+  align-items: flex-start;
+  display: flex;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 

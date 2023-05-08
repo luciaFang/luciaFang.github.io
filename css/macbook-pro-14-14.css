@@ -64,18 +64,6 @@
   width: 940px;
 }
 
-.macbook-pro-14-14 .divw-node-eb91d102-9 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 76px;
-  left: -64px;
-  min-height: 365px;
-  position: relative;
-  top: 35px;
-  width: 436px;
-}
-
 .macbook-pro-14-14 .overlap-group-1 {
   height: 164px;
   margin-top: -15px;
@@ -97,35 +85,26 @@
   width: 453px;
 }
 
-.macbook-pro-14-14 .span {
-  color: var(--eerie-black);
-}
-
 .macbook-pro-14-14 .span1 {
-  color: #0057e1;
-}
-
-.macbook-pro-14-14 .undergraduate-independent-study-in-mcs {
-  color: var(--dove-gray);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxl);
-  font-weight: 500;
-  height: 40px;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 40px;
-  position: absolute;
-  top: 124px;
-  white-space: nowrap;
+  color: var(--science-blue);
 }
 
 .macbook-pro-14-14 .a {
   align-items: flex-start;
-  background-color: #890066;
+  background-color: var(--cardinal-pink);
   border-radius: 10px;
   display: flex;
   padding: 10px 19.53px 10px 20px;
   position: relative;
+  width: fit-content;
+}
+
+.macbook-pro-14-14 .design {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
   width: fit-content;
 }
 
@@ -239,9 +218,9 @@
 }
 
 .macbook-pro-14-14 .fall-2022-ux-design {
-  color: #0057e1;
+  color: var(--science-blue);
   font-family: var(--font-family-inter);
-  font-size: 15px;
+  font-size: var(--font-size-xl);
   font-weight: 700;
   height: 19px;
   letter-spacing: 1.12px;
@@ -288,7 +267,7 @@
 
 .macbook-pro-14-14 .div-2 {
   align-items: flex-end;
-  background-color: #566599;
+  background-color: var(--waikawa-gray);
   border-radius: 10px;
   box-shadow: 1px 1px 40px #3c055a1a;
   display: flex;
@@ -299,17 +278,6 @@
   padding: 19px 24px;
   position: absolute;
   top: 338px;
-}
-
-.macbook-pro-14-14 .the-purpose-of-the-r {
-  color: var(--white);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  height: 252px;
-  letter-spacing: 0;
-  line-height: 28px;
-  min-width: 959px;
 }
 
 .macbook-pro-14-14 .divw-node-_266e3334 {
@@ -330,33 +298,6 @@
   line-height: 34px;
   margin-bottom: -10px;
   margin-top: 15px;
-  white-space: nowrap;
-}
-
-.macbook-pro-14-14 .ulw-node-d3438cca-24 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-left: -19px;
-  margin-top: 10px;
-  min-height: 104px;
-  padding: 3px 20px;
-  width: 352px;
-}
-
-.macbook-pro-14-14 .ulw-node-d3438cca-24-item {
-  height: 19px;
-  letter-spacing: 0;
-  line-height: 28px;
-  white-space: nowrap;
-}
-
-.macbook-pro-14-14 .web-development {
-  height: 19px;
-  letter-spacing: 0;
-  line-height: 28px;
-  margin-bottom: -9px;
   white-space: nowrap;
 }
 
@@ -439,30 +380,6 @@
   margin-right: 16.32px;
   margin-top: 86px;
   position: relative;
-  width: 827px;
-}
-
-.macbook-pro-14-14 .figure-1-3-d-hand-po {
-  color: var(--dove-gray);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xs);
-  font-style: italic;
-  font-weight: 400;
-  height: 84px;
-  left: 18px;
-  letter-spacing: 0;
-  line-height: 28px;
-  position: absolute;
-  top: 586px;
-  width: 790px;
-}
-
-.macbook-pro-14-14 .screenshot-2023-02-27-at-1241-2 {
-  height: 586px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
   width: 827px;
 }
 
@@ -730,6 +647,13 @@
   width: 747px;
 }
 
+.macbook-pro-14-14 .see-more-of-my-work {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
 .macbook-pro-14-14 .div-9 {
   align-items: flex-end;
   display: flex;
@@ -772,12 +696,10 @@
   width: fit-content;
 }
 
-.macbook-pro-14-14 .sensing-projects {
-  letter-spacing: 0;
-  line-height: 19.2px;
-  margin-top: -1.00px;
+.macbook-pro-14-14 .h4 {
+  align-items: flex-start;
+  display: flex;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 

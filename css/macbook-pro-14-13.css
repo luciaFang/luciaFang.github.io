@@ -198,6 +198,13 @@
   width: 747px;
 }
 
+.macbook-pro-14-13 .see-more-of-my-work {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
 .macbook-pro-14-13 .div-8 {
   align-items: flex-end;
   display: flex;
@@ -239,12 +246,10 @@
   width: fit-content;
 }
 
-.macbook-pro-14-13 .sensing-projects {
-  letter-spacing: 0;
-  line-height: 19.2px;
-  margin-top: -1.00px;
+.macbook-pro-14-13 .h4 {
+  align-items: flex-start;
+  display: flex;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 
